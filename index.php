@@ -1,4 +1,4 @@
 <?php
 	echo phpinfo();
-	die('aaa donald');
+	die('donald');
 ?>
