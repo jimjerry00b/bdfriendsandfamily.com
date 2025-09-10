@@ -1,6 +1,6 @@
 name: Deploy to cPanel via FTP
 
-  on:
+on:
   push:
     branches:
       - master
@@ -14,11 +14,10 @@ jobs:
         uses: actions/checkout@v3
 
       - name: FTP Deploy to cPanel
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        uses: SamKirkland/FTP-Deploy-Action@v4
         with:
-          server: ${{ secrets.FTP_SERVER }}
+          server: ftp.example.com
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          port: 21
-          local-dir: ./   # The folder to upload (your WordPress files)
-          server-dir: /public_html/  # Path on your cPanel server
+          local-dir: ./ # your local folder
+          server-dir: /public_html/
