@@ -14,10 +14,11 @@ jobs:
         uses: actions/checkout@v3
 
       - name: FTP Deploy to cPanel
-        uses: SamKirkland/FTP-Deploy-Action@v4
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ftp.example.com
+          server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./ # your local folder
-          server-dir: /public_html/
+          port: 21
+          local-dir: ./   # Your WordPress files
+          server-dir: /public_html/  # Path on your cPanel server
