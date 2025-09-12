@@ -1,0 +1,474 @@
+:root {
+  --primary-color: #FFD95D;
+  --primary-color-dark: #efc745;
+  --secondary-color: #8C0606;
+  --text-color: #333333;
+  --bg-color: #f5f5f5;
+}
+
+.btn-primary{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    padding: 12px 65px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-color-dark);
+    color: var(--secondary-color);
+}
+
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PatuaOne';
+    src: url('../fonts/PatuaOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-size: 24px;
+}
+
+h1{
+    font-size: 48px;
+    font-family: 'OpenSans', sans-serif;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+h2{
+    font-size: 36px;
+    font-family: 'PatuaOne', sans-serif;
+    color: var(--secondary-color);
+    font-weight: normal;
+}
+
+h3{
+    font-size: 32px;
+    font-family: 'PatuaOne', sans-serif;
+    color: var(--secondary-color);
+    font-weight: normal;
+}
+
+
+#section_four h3.custom{
+    font-size: 28px;
+    line-height: 40px;
+    font-family: 'OpenSans', sans-serif;
+    color: var(--secondary-color);
+    font-weight: normal;
+}
+
+
+/* navbar */
+nav{
+    background: #000;
+}
+
+nav #navbarNav ul li a{
+    color: #fff;
+    font-size: 32px;
+    font-family: 'OpenSans';
+    padding: 28px;
+}
+
+nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
+    color: var(--primary-color);
+    font-weight: bold;
+    
+}
+
+
+
+/* banner */
+
+#banner{
+    background: url('../images/banner-2.png') no-repeat left -500px center/cover;
+    height: 685px;
+    position: relative;
+}
+
+.overlay{
+    height: 24px;
+    background: var(--primary-color);
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.home_title{
+    color: #fff;
+    font-size: 30px;
+    line-height: 42px;
+    font-family: 'OpenSans', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    padding-top: 28px;
+}
+
+.order_today_btn {
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    font-size: 32px;
+    line-height: 33px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    font-family: 'PatuaOne';
+}
+
+.order_today_btn:hover {
+    background-color: #a30707;
+    transform: scale(1.05);
+    padding-top: 40px;
+    font-weight: bold;
+}
+
+.order_today_box{
+    left: 140px;
+}
+
+.order_today_btn {
+  color: var(--secondary-color);
+  position: relative;
+  width: 200px;   /* outer circle size */
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(150deg, #e9be60, #b4934c);
+  padding: 25px;
+  border: none;
+  box-shadow: -7px 5px 17px 5px #00000073;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.order_today_btn::before {
+  content: "";
+  position: absolute;
+  top: 25px;   /* match padding */
+  left: 25px;
+  right: 25px;
+  bottom: 25px;
+  background: #fff;   /* inner circle */
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.order_today_btn span {
+  z-index: 1;
+  width: 85%;
+}
+
+
+/* section three */
+
+.section_three_img{
+    min-height: 209px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_four_text_side{
+    background: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+.section_four_text{
+    width: 77%;
+}
+
+/* section three end*/
+
+
+
+/* Testimonial Slider Styles */
+.testimonials-section {
+    padding: 60px 0;
+}
+
+.testimonials-section h2 {
+    margin-bottom: 50px;
+}
+
+.testimonial-item {
+    padding: 20px;
+}
+
+.testimonial-content {
+    background: linear-gradient(150deg, var(--primary-color), #fff);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 10px;
+    position: relative;
+}
+
+.testimonial-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.testimonial-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.rating {
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+/* Slick Slider Custom Styles */
+.slick-prev,
+.slick-next {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-prev {
+    left: -50px;
+}
+
+.slick-next {
+    right: -50px;
+}
+
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: var(--primary-color);
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--secondary-color);
+}
+
+/* responsive css start */
+
+@media screen and (max-width: 1443px) {
+
+    #section_four .container-fluid{
+        background: url(../images/howto_order.jpg) no-repeat center center / cover;
+        padding: 2% 0;
+    }
+
+    .section_four_row{
+        justify-content: center;
+    }
+
+    .section_four_img{
+        display: none;
+    }
+    .section_four_text_side{
+        width: 94%;
+        background: #ffd95de6;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    .order_today_box{
+        right: 0;
+        left: initial;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #banner {
+        background: url(../images/banner-2.png) no-repeat left center / cover;
+    }
+}
+
+@media screen and (max-width: 575px) {
+
+    h1{
+        font-size: 26px;
+    }
+
+    h2{
+        font-size: 24px;
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    .home_title {
+        font-size: 20px;
+        line-height: 30px;
+        padding-top: 20px;
+    }
+
+    nav .navbar-brand img{
+        max-width: 150px;
+    }
+
+    nav #navbarNav ul li a{
+        padding: 15px 28px 15px 0px;
+        font-size: 20px;
+    }
+
+    .overlay {
+        height: 10px;
+    }
+
+    #banner{
+        height: auto;
+        padding: 60px 0 40px 0
+    }
+
+    .order_today_btn::before {
+        top: 10px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+    .order_today_btn{
+        width: 99px;
+        height: 99px;
+        font-size: 17px;
+        line-height: 18px;
+    }
+
+    .order_today_box{
+        bottom: -90px;
+        right: 14px;
+    }
+}
+
+/* Testimonial Slider Styles */
+#testimonials {
+    background-color: #fff;
+}
+
+#testimonials h2 {
+    margin-bottom: 40px;
+}
+
+.testimonial-item {
+    padding: 0;
+}
+
+
+.testimonial-content {
+    background: linear-gradient(150deg, var(--primary-color), #fff);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+
+.testimonial-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    min-height: 130px
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.testimonial-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.rating {
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+/* Slick Slider Custom Styles */
+.slick-prev,
+.slick-next {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-prev {
+    left: -50px;
+}
+
+.slick-next {
+    right: -50px;
+}
+
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: var(--primary-color);
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--secondary-color);
+}
+
+/* responsive css start end*/
