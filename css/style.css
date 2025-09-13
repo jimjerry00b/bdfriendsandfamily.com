@@ -95,7 +95,9 @@ nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
 /* banner */
 
 #banner{
-    background: url('../images/banner-2.png') no-repeat left -500px center/cover;
+    background: url('../images/banner-2.png') no-repeat left -500px;
+    background-position: center;
+    background-size: cover;
     height: 685px;
     position: relative;
 }
@@ -245,6 +247,66 @@ nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
     object-fit: cover;
 }
 
+#testimonials {
+    background-color: #fff;
+}
+
+#testimonials h2 {
+    margin-bottom: 40px;
+}
+
+.testimonial-item {
+    padding: 0;
+}
+
+
+.testimonial-content {
+    background: linear-gradient(150deg, var(--primary-color), #fff);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin: 10px;
+}
+
+.testimonial-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    min-height: 130px
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.testimonial-author img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.author-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.author-name {
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.rating {
+    color: var(--primary-color);
+    font-size: 14px;
+}
+
+/* Testimonial Slider Styles end*/
+
+
 .author-info {
     display: flex;
     flex-direction: column;
@@ -289,6 +351,145 @@ nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
     color: var(--secondary-color);
 }
 
+.slick-prev,
+.slick-next {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+}
+
+.slick-prev {
+    left: -50px;
+}
+
+.slick-next {
+    right: -50px;
+}
+
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots li button:before {
+    font-size: 12px;
+    color: var(--primary-color);
+}
+
+.slick-dots li.slick-active button:before {
+    color: var(--secondary-color);
+}
+
+/* Call to Action Section */
+.call-to-action {
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.call-to-action h2 {
+    color: var(--secondary-color);
+    margin-bottom: 15px;
+}
+
+.call-to-action .small {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 0 30px;
+}
+
+.footer-logo {
+    max-width: 200px;
+    margin-bottom: 20px;
+}
+
+footer h3 {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+
+.quick-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.quick-links li {
+    margin-bottom: 10px;
+}
+
+.quick-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.quick-links a:hover {
+    color: var(--primary-color);
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-links a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: var(--primary-color);
+}
+
+.copyright {
+    color: #888;
+    font-size: 14px;
+    margin-top: 10px;
+    padding-bottom: 6px;
+}
+
+.location, .phone, .email {
+    position: relative;
+    padding-left: 25px;
+    font-size: 18px;
+}
+
+.location:before, .phone:before, .email:before {
+    font-family: "bootstrap-icons";
+    position: absolute;
+    left: 0;
+}
+
+.location:before {
+    content: "\f3e8";
+}
+
+.phone:before {
+    content: "\f4e7";
+}
+
+.email:before {
+    content: "\f32f";
+}
+
+
+.copyright-section{
+    background: var(--text-color);
+}
+
 /* responsive css start */
 
 @media screen and (max-width: 1443px) {
@@ -310,12 +511,21 @@ nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
         background: #ffd95de6;
     }
 
+    .section_four_text{
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 991px) {
     .order_today_box{
         right: 0;
         left: initial;
+    }
+
+    #section_four h3.custom {
+        font-size: 24px;
+        line-height: 30px;
     }
 
 }
@@ -384,91 +594,6 @@ nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
     }
 }
 
-/* Testimonial Slider Styles */
-#testimonials {
-    background-color: #fff;
-}
 
-#testimonials h2 {
-    margin-bottom: 40px;
-}
-
-.testimonial-item {
-    padding: 0;
-}
-
-
-.testimonial-content {
-    background: linear-gradient(150deg, var(--primary-color), #fff);
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    margin: 10px;
-}
-
-.testimonial-content p {
-    font-size: 16px;
-    line-height: 1.6;
-    color: var(--text-color);
-    margin-bottom: 20px;
-    min-height: 130px
-}
-
-.testimonial-author {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.testimonial-author img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
-.author-info {
-    display: flex;
-    flex-direction: column;
-}
-
-.author-name {
-    font-weight: bold;
-    color: var(--text-color);
-}
-
-.rating {
-    color: var(--primary-color);
-    font-size: 14px;
-}
-
-/* Slick Slider Custom Styles */
-.slick-prev,
-.slick-next {
-    z-index: 1;
-    width: 40px;
-    height: 40px;
-}
-
-.slick-prev {
-    left: -50px;
-}
-
-.slick-next {
-    right: -50px;
-}
-
-.slick-dots {
-    bottom: -40px;
-}
-
-.slick-dots li button:before {
-    font-size: 12px;
-    color: var(--primary-color);
-}
-
-.slick-dots li.slick-active button:before {
-    color: var(--secondary-color);
-}
 
 /* responsive css start end*/

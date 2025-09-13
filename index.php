@@ -7,6 +7,7 @@
   <title>BD Friends and Family</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 </head>
@@ -202,6 +203,54 @@
       </div>
     </div>
   </section>
+
+  <section class="call-to-action py-4">
+    <div class="container text-center">
+      <h2>Plan Your Party Menu Today!</h2>
+      <p>To Place your order call us at +1 301-873-8643</p>
+      <p class="small">Our Service available only based in Maryland, USA</p>
+      <a href="tel:+13018738643" class="btn btn-primary">Call Now</a>
+    </div>
+  </section>
+
+  <footer class="p-0">
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <img src="images/logo.png" alt="BD Friends and Family" class="footer-logo mb-3">
+          <p class="location">Silver Spring, Maryland</p>
+          <p class="phone">Phone: +1 301-873-8643</p>
+          <p class="email">email: contact@friendsandfamilyfood.com</p>
+        </div>
+        <div class="col-md-4 mb-4 mb-md-0">
+          <h3>Quick Links:</h3>
+          <ul class="quick-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h3>Social Media:</h3>
+          <div class="social-links">
+            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+            <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid copyright-section">
+      <div class="row">
+        <div class="col-12 text-center">
+          <p class="copyright">&copy; 2025 BD Friends and Family. All rights reserved.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script src="js/bootstrap.bundle.min.js"></script>
   <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
