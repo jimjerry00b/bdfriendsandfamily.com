@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>BD Friends and Family</title>
   <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css?v=1.0" rel="stylesheet">
+  <link href="css/style.css?v=2.0" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
@@ -132,7 +132,7 @@
           <div class="testimonial-content">
             <p>"We hosted a birthday party for 60 people and ordered a full spread - appetizers, biriyani, kababs, and curry. Everything was flavorful and authentic. My guests said it was the best Bangladeshi food they've had in the US!"</p>
             <div class="testimonial-author">
-              <img src="images/testimonials/author1.jpg" alt="Vin D'Costa">
+              <img src="images/testimonials/slider_img.jpg" alt="Vin D'Costa">
               <div class="author-info">
                 <span class="author-name">-Vin D'Costa</span>
                 <div class="rating">⭐⭐⭐⭐⭐</div>
@@ -144,7 +144,7 @@
           <div class="testimonial-content">
             <p>"As an event organizer, I need reliable catering partners, and this kitchen exceeded my expectations. On-time, large portions, and food that impressed every guest!"</p>
             <div class="testimonial-author">
-              <img src="images/testimonials/author2.jpg" alt="Farhana S.">
+              <img src="images/testimonials/slider_img.jpg" alt="Farhana S.">
               <div class="author-info">
                 <span class="author-name">-Farhana S.</span>
                 <div class="rating">⭐⭐⭐⭐⭐</div>
@@ -156,7 +156,7 @@
           <div class="testimonial-content">
             <p>"This catering service made our family reunion unforgettable. The fish curry and kababs tasted just like back home in Bangladesh. Their team was so professional, and the delivery was seamless."</p>
             <div class="testimonial-author">
-              <img src="images/testimonials/author3.jpg" alt="Farhana S.">
+              <img src="images/testimonials/slider_img.jpg" alt="Farhana S.">
               <div class="author-info">
                 <span class="author-name">-Farhana S.</span>
                 <div class="rating">⭐⭐⭐⭐⭐</div>
@@ -168,7 +168,7 @@
           <div class="testimonial-content">
             <p>"We hosted a birthday party for 60 people and ordered a full spread - appetizers, biriyani, kababs, and curry. Everything was flavorful and authentic. My guests said it was the best Bangladeshi food they've had in the US!"</p>
             <div class="testimonial-author">
-              <img src="images/testimonials/author1.jpg" alt="Vin D'Costa">
+              <img src="images/testimonials/slider_img.jpg" alt="Vin D'Costa">
               <div class="author-info">
                 <span class="author-name">-Vin D'Costa</span>
                 <div class="rating">⭐⭐⭐⭐⭐</div>
@@ -180,7 +180,7 @@
           <div class="testimonial-content">
             <p>"As an event organizer, I need reliable catering partners, and this kitchen exceeded my expectations. On-time, large portions, and food that impressed every guest!"</p>
             <div class="testimonial-author">
-              <img src="images/testimonials/author2.jpg" alt="Farhana S.">
+              <img src="images/testimonials/slider_img.jpg" alt="Farhana S.">
               <div class="author-info">
                 <span class="author-name">-Farhana S.</span>
                 <div class="rating">⭐⭐⭐⭐⭐</div>
@@ -192,7 +192,7 @@
           <div class="testimonial-content">
             <p>"This catering service made our family reunion unforgettable. The fish curry and kababs tasted just like back home in Bangladesh. Their team was so professional, and the delivery was seamless."</p>
             <div class="testimonial-author">
-              <img src="images/testimonials/author3.jpg" alt="Farhana S.">
+              <img src="images/testimonials/slider_img.jpg" alt="Farhana S.">
               <div class="author-info">
                 <span class="author-name">-Farhana S.</span>
                 <div class="rating">⭐⭐⭐⭐⭐</div>
@@ -205,40 +205,62 @@
   </section>
 
   <section class="call-to-action py-4">
-    <div class="container text-center">
-      <h2>Plan Your Party Menu Today!</h2>
-      <p>To Place your order call us at +1 301-873-8643</p>
-      <p class="small">Our Service available only based in Maryland, USA</p>
-      <a href="tel:+13018738643" class="btn btn-primary">Call Now</a>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-lg-9 text-center text-lg-start">
+                <h2>Plan Your Party Menu Today!</h2>
+                <p>To Place your order call us at +1 301-873-8643</p>
+                <p>Our Service available only based in Maryland, USA</p>
+            </div>
+            <div class="col-12 col-lg-3 text-end align-items-center justify-content-center d-flex">
+                <a href="tel:+13018738643" class="btn btn-secondary">Call Now</a>
+            </div>
+
+        </div>
     </div>
   </section>
 
   <footer class="p-0">
     <div class="container py-5">
       <div class="row">
-        <div class="col-md-4 mb-4 mb-md-0">
-          <img src="images/logo.png" alt="BD Friends and Family" class="footer-logo mb-3">
-          <p class="location">Silver Spring, Maryland</p>
-          <p class="phone">Phone: +1 301-873-8643</p>
-          <p class="email">email: contact@friendsandfamilyfood.com</p>
-        </div>
-        <div class="col-md-4 mb-4 mb-md-0">
-          <h3>Quick Links:</h3>
-          <ul class="quick-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h3>Social Media:</h3>
-          <div class="social-links">
-            <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-            <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-            <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
-            <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
+
+        <div class="col-12 col-lg-4 mb-4 mb-md-0 d-grid align-items-center justify-content-center justify-content-lg-start">
+          <div class="">
+              <p class="location">Silver Spring, Maryland</p>
+              <p class="phone">Phone: +1 301-873-8643</p>
+              <p class="email">contact@friendsandfamilyfood.com</p>
           </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-4 mb-md-0 text-center">
+
+          <img src="images/logo.png" alt="BD Friends and Family" class="footer-logo mb-3">
+          
+          <ul class="nav quick-links justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+        <div class="col-12 col-lg-4 d-grid align-items-center justify-content-center">
+            <div class="">
+              <h3>Social Media:</h3>
+              <div class="social-links">
+                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
+                <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
+              </div>
+            </div>
         </div>
       </div>
     </div>
@@ -264,7 +286,7 @@
         speed: 500,
         slidesToShow: 3,
         slidesToScroll: 1,
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         responsive: [
           {

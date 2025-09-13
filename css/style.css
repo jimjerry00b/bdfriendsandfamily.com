@@ -22,6 +22,23 @@
     color: var(--secondary-color);
 }
 
+.btn-secondary{
+    background-color: var(--secondary-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 12px 65px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover{
+    background-color: #a30707;
+    color: var(--bg-color);
+
+}
+
 
 @font-face {
     font-family: 'OpenSans';
@@ -261,7 +278,7 @@ nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
 
 
 .testimonial-content {
-    background: linear-gradient(150deg, var(--primary-color), #fff);
+    background: linear-gradient(150deg, #F8F8F8, #fff);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -425,14 +442,25 @@ footer p {
 }
 
 .quick-links li {
-    margin-bottom: 10px;
+    margin-bottom: 0;
+    display: inline-block;
+    border-right: 2px solid #fff;
+    padding-right: 0;
+    margin-right: 0;
 }
 
 .quick-links a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     transition: color 0.3s ease;
+    padding: 0 20px;
+}
+
+.quick-links li:last-child {
+    border-right: none;
+    margin-right: 0;
+    padding-right: 0;
 }
 
 .quick-links a:hover {
@@ -464,8 +492,13 @@ footer p {
 .location, .phone, .email {
     position: relative;
     padding-left: 25px;
+
     font-size: 18px;
+     border-right: none;
+     margin-right: 0;
+     padding-right: 0;
 }
+
 
 .location:before, .phone:before, .email:before {
     font-family: "bootstrap-icons";
@@ -487,7 +520,7 @@ footer p {
 
 
 .copyright-section{
-    background: var(--text-color);
+    background: #141414;
 }
 
 /* responsive css start */
