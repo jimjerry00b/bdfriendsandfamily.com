@@ -1,43 +1,6 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BD Friends and Family</title>
-  <link href="css/bootstrap.min.css" rel="stylesheet">
-  <link href="css/style.css?v=2.0" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light">
-    <div class="container">
-      <a class="navbar-brand" href="#"><img src="images/logo.png"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="#fff" class="bi bi-list" viewBox="0 0 16 16">
-          <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
-        </svg>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Menu</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-        </ul>
-      </div>
-    </div>
-  </nav>
+<?php
+  include_once 'header.php';
+?>
 
 
   <section id="banner" class="d-flex justify-content-center align-items-center">
@@ -45,8 +8,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-5 col-12 align-self-center">
-          <h1>Authentic Bangladeshi Catering in Maryland</h1>
-          <p class="home_title">Perfect for weddings, birthdays, office parties, and community gatherings</p>
+          <h1 class="">Authentic Bangladeshi Catering in Maryland</h1>
+          <p class="home_title" style="transition-delay: 0.2s">Perfect for weddings, birthdays, office parties, and community gatherings</p>
         </div>
         <div class="col-lg-7 col-12 position-relative">
             <div class="d-flex align-items-center position-absolute order_today_box">
@@ -80,19 +43,19 @@
 
         <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
           <div class="section_three_img"><img src="images/service/icon2.svg" alt="icon1" class="mb-3"></div>
-          <h3>Authentic Taste</h3>
+          <h3>Authentic<br>Taste</h3>
           <p class="text-center">Traditional recipes, just like home.</p>
         </div>
 
         <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
           <div class="section_three_img"><img src="images/service/icon3.svg" alt="icon1" class="mb-3"></div>
-          <h3>Wide Menu Variety</h3>
+          <h3>Wide Menu<br>Variety</h3>
           <p class="text-center">Appetizers, mains, rice dishes, breads & more.</p>
         </div>
 
         <div class="col-12 col-md-6 col-lg-3 text-center mb-4">
           <div class="section_three_img"><img src="images/service/icon4.svg" alt="icon1" class="mb-3"></div>
-          <h3>Freshly Prepared</h3>
+          <h3>Freshly<br>Prepared</h3>
           <p class="text-center">Cooked on the day of your event.</p>
         </div>
 
@@ -103,10 +66,8 @@
   <section id="section_four" class="py-5">
     <div class="container-fluid">
       <div class="row section_four_row">
-        <div class="col-12 col-md-4 p-0">
-          <div class="section_four_img">
-            <img src="images/howto_order.jpg" alt="section4_img" style="width: 100%; height: auto;">
-          </div>
+        <div class="col-12 col-md-4 p-0 section_four_img_side">
+          <div class="section_four_img"></div>
         </div>
         <div class="col-12 col-md-8 p-5 section_four_text_side">
           <div class="section_four_text">
@@ -144,7 +105,7 @@
           <div class="testimonial-content">
             <p>"As an event organizer, I need reliable catering partners, and this kitchen exceeded my expectations. On-time, large portions, and food that impressed every guest!"</p>
             <div class="testimonial-author">
-              <img src="images/testimonials/slider_img.jpg" alt="Farhana S.">
+              <img src="images/testimonials/slider_img2.jpg" alt="Farhana S.">
               <div class="author-info">
                 <span class="author-name">-Farhana S.</span>
                 <div class="rating">⭐⭐⭐⭐⭐</div>
@@ -156,7 +117,7 @@
           <div class="testimonial-content">
             <p>"This catering service made our family reunion unforgettable. The fish curry and kababs tasted just like back home in Bangladesh. Their team was so professional, and the delivery was seamless."</p>
             <div class="testimonial-author">
-              <img src="images/testimonials/slider_img.jpg" alt="Farhana S.">
+              <img src="images/testimonials/slider_img3.jpg" alt="Farhana S.">
               <div class="author-info">
                 <span class="author-name">-Farhana S.</span>
                 <div class="rating">⭐⭐⭐⭐⭐</div>
@@ -220,93 +181,6 @@
     </div>
   </section>
 
-  <footer class="p-0">
-    <div class="container py-5">
-      <div class="row">
-
-        <div class="col-12 col-lg-4 mb-4 mb-md-0 d-grid align-items-center justify-content-center justify-content-lg-start">
-          <div class="">
-              <p class="location">Silver Spring, Maryland</p>
-              <p class="phone">Phone: +1 301-873-8643</p>
-              <p class="email">contact@friendsandfamilyfood.com</p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-4 mb-4 mb-md-0 text-center">
-
-          <img src="images/logo.png" alt="BD Friends and Family" class="footer-logo mb-3">
-          
-          <ul class="nav quick-links justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-
-        </div>
-        <div class="col-12 col-lg-4 d-grid align-items-center justify-content-center">
-            <div class="">
-              <h3>Social Media:</h3>
-              <div class="social-links">
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="youtube"><i class="bi bi-youtube"></i></a>
-                <a href="#" class="tiktok"><i class="bi bi-tiktok"></i></a>
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container-fluid copyright-section">
-      <div class="row">
-        <div class="col-12 text-center">
-          <p class="copyright">&copy; 2025 BD Friends and Family. All rights reserved.</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <script src="js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-  <script>
-    $(document).ready(function(){
-      $('.testimonial-slider').slick({
-        dots: false,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 4000,
-        responsive: [
-          {
-            breakpoint: 1024,
-            settings: {
-              slidesToShow: 2,
-              slidesToScroll: 1
-            }
-          },
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1
-            }
-          }
-        ]
-      });
-    });
-  </script>
-</body>
-
-</html>
+  <?php
+  include_once 'footer.php';
+  ?>

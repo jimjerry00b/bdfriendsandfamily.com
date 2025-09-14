@@ -55,7 +55,8 @@
 }
 
 body{
-    font-size: 24px;
+    font-size: 19px;
+    color: #000000a1;
 }
 
 h1{
@@ -96,7 +97,7 @@ nav{
 
 nav #navbarNav ul li a{
     color: #fff;
-    font-size: 32px;
+    font-size: 25px;
     font-family: 'OpenSans';
     padding: 28px;
 }
@@ -112,15 +113,16 @@ nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
 /* banner */
 
 #banner{
-    background: url('../images/banner-2.png') no-repeat left -500px;
+    background: url('../images/banner-3.png') no-repeat left -500px;
     background-position: center;
     background-size: cover;
     height: 685px;
     position: relative;
+    box-shadow: 5px 10px 15px rgb(0 0 0 / 15%);
 }
 
 .overlay{
-    height: 24px;
+    height: 5px;
     background: var(--primary-color);
     width: 100%;
     position: absolute;
@@ -166,7 +168,7 @@ nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
   width: 200px;   /* outer circle size */
   height: 200px;
   border-radius: 50%;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: center;
   background: linear-gradient(150deg, #e9be60, #b4934c);
@@ -208,6 +210,10 @@ nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
     justify-content: center;
 }
 
+#section_three h3{
+    font-size: 24px;
+}
+
 .section_four_text_side{
     background: var(--primary-color);
     display: flex;
@@ -216,6 +222,14 @@ nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
 
 .section_four_text{
     width: 77%;
+}
+
+.section_four_img_side{
+    background: url('../images/howto_order.jpg') no-repeat center center / cover;
+}
+
+.section_four_row{
+    min-height: 646px;
 }
 
 /* section three end*/
@@ -523,9 +537,40 @@ footer p {
     background: #141414;
 }
 
+
+/* menu */
+
+.menu_title{
+    font-family: 'PatuaOne';
+    font-size: 48px;
+    color: #fff;
+    margin: 0;
+}
+
+.menu_subtitle{
+    font-family: 'PatuaOne';
+    font-size: 36px;
+    color: #fff;
+}
+
+
+#menu_section_two{
+    background: var(--primary-color);
+    padding: 60px 0;
+}
+
+.menu_section_two_subtitle{
+    font-family: 'OpenSans', sans-serif;
+    font-size: 24px;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
+/* menu end */
+
 /* responsive css start */
 
-@media screen and (max-width: 1443px) {
+@media screen and (max-width: 991px) {
 
     #section_four .container-fluid{
         background: url(../images/howto_order.jpg) no-repeat center center / cover;
@@ -548,9 +593,10 @@ footer p {
         width: 100%;
     }
 
-}
+    .section_four_img_side{
+        display: none;
+    }
 
-@media screen and (max-width: 991px) {
     .order_today_box{
         right: 0;
         left: initial;
@@ -628,5 +674,102 @@ footer p {
 }
 
 
+
+/* Animation Styles */
+@keyframes steam {
+    0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translateY(-10px) scale(1.2);
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(-20px) scale(1.4);
+        opacity: 0;
+    }
+}
+
+@keyframes sizzle {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.02); }
+    100% { transform: scale(1); }
+}
+
+@keyframes stir {
+    0% { transform: rotate(0deg); }
+    25% { transform: rotate(5deg); }
+    75% { transform: rotate(-5deg); }
+    100% { transform: rotate(0deg); }
+}
+
+/* Hover animations */
+.section_three_img {
+    transition: transform 0.3s ease;
+}
+
+.section_three_img:hover {
+    animation: stir 1s ease infinite;
+}
+
+.testimonial-content {
+    transition: transform 0.3s ease;
+}
+
+.testimonial-content:hover {
+    transform: translateY(-5px);
+}
+
+/* Steam effect for Order Today button */
+.order_today_btn::after {
+    content: "🌡️";
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    opacity: 0;
+    animation: steam 2s infinite ease-out;
+}
+
+/* Sizzle effect for images */
+.section_four_img img {
+    animation: sizzle 2s infinite ease-in-out;
+}
+
+/* Fade-in animations */
+.fade-up {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-up.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Stagger animation for service items */
+.service-item {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.service-item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.service-item:nth-child(1) { transition-delay: 0.1s; }
+.service-item:nth-child(2) { transition-delay: 0.2s; }
+.service-item:nth-child(3) { transition-delay: 0.3s; }
+.service-item:nth-child(4) { transition-delay: 0.4s; }
+
+/* Menu button hover effect */
+.btn-primary:hover {
+    animation: stir 0.5s ease;
+}
 
 /* responsive css start end*/
