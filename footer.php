@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-12 col-lg-9 text-center text-lg-start">
                 <h2>Plan Your Party Menu Today!</h2>
-                <p>To Place your order call us at +1 301-873-8643</p>
+                <p>To Place your order call us at +1301-873-8643</p>
                 <p>Our Service available only based in Maryland, USA</p>
             </div>
             <div class="col-12 col-lg-3 text-end align-items-center justify-content-center d-flex">

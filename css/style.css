@@ -56,7 +56,7 @@
 
 body{
     font-size: 19px;
-    color: #000000a1;
+    color: #000000bf;
 }
 
 h1{
@@ -608,6 +608,35 @@ footer p {
 
 /* menu end */
 
+
+/* about */
+#about_section_one{
+    background: url(../images/about_banner.jpg) no-repeat center center / cover;
+    min-height: 700px;
+}
+
+#about_section_one h1{
+    font-family: 'PatuaOne';
+    color: var(--secondary-color);
+    font-weight: normal;
+}
+
+#about_section_one p{
+    font-family: 'PatuaOne';
+    color: var(--secondary-color);
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 30px;
+}
+
+.section_one_text{
+    top: 135px;
+    position: relative;
+}
+
+
+/* about end */
+
 /* responsive css start */
 
 @media screen and (max-width: 1199px) {
@@ -656,6 +685,10 @@ footer p {
     #section_four h3.custom {
         font-size: 24px;
         line-height: 30px;
+    }
+
+    .section_one_text{
+        padding: 0 10px;
     }
 
 }
@@ -742,6 +775,14 @@ footer p {
     .menu_section_two_subtitle{
         font-size: 18px;
         font-weight: normal;
+    }
+
+    #about_section_one h1{
+        font-size: 36px;
+    }
+
+    #about_section_one {
+        min-height: 500px;
     }
 }
 
