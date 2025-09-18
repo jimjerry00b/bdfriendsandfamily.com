@@ -613,6 +613,7 @@ footer p {
 #about_section_one{
     background: url(../images/about_banner.jpg) no-repeat center center / cover;
     min-height: 700px;
+    border-top: 5px solid var(--primary-color);
 }
 
 #about_section_one h1{
@@ -636,6 +637,53 @@ footer p {
 
 
 /* about end */
+
+
+/* contact */
+#contact_section_one{
+    background: url(../images/contact/1.jpg) no-repeat center center / cover;
+    min-height: 700px;
+    border-top: 5px solid var(--primary-color);
+}
+
+#contact_section_one h1{
+    font-family: 'PatuaOne';
+    color: var(--secondary-color);
+    font-weight: normal;
+}
+
+#contact_section_two span{
+    font-size: 24px;
+    line-height: 25px;
+    color: var(--secondary-color);
+
+}
+
+#contact_section_two h4{
+    color: var(--secondary-color);
+}
+
+#contact_section_one {
+    padding: 60px 0;
+    background-color: var(--bg-color);
+}
+
+
+
+#contact_form {
+    background-color: var(--bg-color);
+}
+
+#contact_form .form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* contact end */
 
 /* responsive css start */
 

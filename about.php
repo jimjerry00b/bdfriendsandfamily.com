@@ -65,7 +65,7 @@
             </div>
         </div>
 
-        <div class="col-12 col-lg-4 p-5">
+        <div class="col-12 col-sm-4 p-5">
             <div class="d-flex justify-content-center align-items-center">
                 <img src="images/about/3.svg" alt="Fresh Ingredients" class="img-fluid mb-3">
             </div>
