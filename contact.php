@@ -6,16 +6,16 @@
 
 <section class="container-fluid d-flex justify-content-center align-items-center" id="contact_section_one">
     <div class="row">
-        <div class="col-10 offset-5 p-0 text-center">
+        <div class="col-8 offset-4 p-0 text-center">
             <h1>Let’s Plan Your Next Event Together</h1>
         </div>
     </div>
 </section>
 
 
-<section class="container d-flex justify-content-center align-items-center" id="contact_section_two">
+<section class="container d-flex justify-content-center align-items-center py-5" id="contact_section_two">
     <div class="row">
-        <div class="col-12 text-center mt-5 mb-3">
+        <div class="col-12 text-center">
             <h2>Contact Us</h2>
         </div>
         <div class="col-12 text-center">
@@ -29,7 +29,7 @@
 </section>
 
 
-<section class="container-fluid py-5" id="contact_form">
+<section class="container-fluid py-2 py-md-5" id="contact_form">
     <div class="row">
         <div class="col-12">
             <div class="form-container">

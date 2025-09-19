@@ -5,7 +5,7 @@
 
 <section class="container-fluid d-flex justify-content-center align-items-center" id="about_section_one">
     <div class="row">
-        <div class="col-12 p-0 text-center section_one_text">
+        <div class="col-12 px-2 text-center section_one_text">
             <p>Serving</p>
             <h1>Authentic Bangladeshi Food in Maryland</h1>
         </div>

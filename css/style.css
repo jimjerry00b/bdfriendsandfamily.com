@@ -664,7 +664,7 @@ footer p {
 }
 
 #contact_section_one {
-    padding: 60px 0;
+    padding: 60px 0 60px 300pxmedia;
     background-color: var(--bg-color);
 }
 
@@ -683,6 +683,10 @@ footer p {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
+#contact_section_one div{
+    
+}
+
 /* contact end */
 
 /* responsive css start */
@@ -695,6 +699,10 @@ footer p {
 
     .menu_item_title{
         font-size: 26px;
+    }
+
+    #contact_section_one{
+        padding: 0;
     }
 }
 
@@ -739,11 +747,26 @@ footer p {
         padding: 0 10px;
     }
 
+    #about_section_one h1{
+        font-size: 40px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
     #banner {
         background: url(../images/banner-2.png) no-repeat left center / cover;
+    }
+
+    #contact_section_one h1{
+        font-size: 30px;
+    }
+    #contact_section_one div{
+        margin: 0 auto;
+    }
+    #contact_section_one {
+        padding: 60px 0 60px 135px;
+        min-height: 500px;
     }
 }
 
@@ -831,6 +854,10 @@ footer p {
 
     #about_section_one {
         min-height: 500px;
+    }
+
+    #contact_section_two span{
+        font-size: 20px;
     }
 }
 
