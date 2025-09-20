@@ -4,7 +4,7 @@
 
 
   <section id="menu_section" class="">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12">
           <img src="images/menu/menu_top.jpg" alt="menu banner" class="img-fluid w-100">

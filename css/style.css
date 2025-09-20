@@ -89,6 +89,12 @@ h3{
     font-weight: normal;
 }
 
+#how_to_order li{
+    padding: 15px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
 
 /* navbar */
 nav{
@@ -116,7 +122,7 @@ nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
     background: url('../images/banner-3.png') no-repeat left -500px;
     background-position: center;
     background-size: cover;
-    height: 685px;
+    height: 550px;
     position: relative;
     box-shadow: 5px 10px 15px rgb(0 0 0 / 15%);
 }
@@ -578,6 +584,10 @@ footer p {
     padding-bottom: 10px;
 }
 
+.menu_items_section h3{
+    font-size: 26px;
+}
+
 .menu_item_card{
     display: flex;
 }
@@ -612,7 +622,7 @@ footer p {
 /* about */
 #about_section_one{
     background: url(../images/about_banner.jpg) no-repeat center center / cover;
-    min-height: 700px;
+    min-height: 550px;
     border-top: 5px solid var(--primary-color);
 }
 
@@ -642,7 +652,7 @@ footer p {
 /* contact */
 #contact_section_one{
     background: url(../images/contact/1.jpg) no-repeat center center / cover;
-    min-height: 700px;
+    min-height: 550px;
     border-top: 5px solid var(--primary-color);
 }
 
@@ -664,7 +674,7 @@ footer p {
 }
 
 #contact_section_one {
-    padding: 60px 0 60px 300pxmedia;
+    padding: 60px 0 60px 300px;
     background-color: var(--bg-color);
 }
 
@@ -683,8 +693,9 @@ footer p {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-#contact_section_one div{
-    
+
+.required{
+    color: red;
 }
 
 /* contact end */
@@ -751,29 +762,44 @@ footer p {
         font-size: 40px;
     }
 
+    .menu_items_section h3{
+        font-size: 24px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
-    #banner {
-        background: url(../images/banner-2.png) no-repeat left center / cover;
+    #banner{
+        background: linear-gradient(to right, rgb(0 0 0 / 77%), rgba(0, 0, 0, 0)), /* top layer */ url(../images/banner-2.png) repeat, /* middle layer */ #000000;; 
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
 
     #contact_section_one h1{
-        font-size: 30px;
+        font-size: 28px;
+        color: #fff;
+        font-family: 'OpenSans', sans-serif;
     }
     #contact_section_one div{
         margin: 0 auto;
     }
     #contact_section_one {
-        padding: 60px 0 60px 135px;
-        min-height: 500px;
+        padding: 0;
+        min-height: 185px;
+        background: linear-gradient(to right, rgb(0 0 0 / 51%), rgb(0 0 0 / 45%)), /* top layer */ url(../images/contact/1.jpg) repeat, /* middle layer */ #000000; 
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
+    
 }
 
 @media screen and (max-width: 575px) {
 
     h1{
         font-size: 26px;
+        font-weight: normal;
     }
 
     h2{
@@ -805,7 +831,7 @@ footer p {
 
     #banner{
         height: auto;
-        padding: 60px 0 40px 0
+        padding: 60px 0 40px 0;
     }
 
     .order_today_btn::before {
@@ -849,11 +875,32 @@ footer p {
     }
 
     #about_section_one h1{
-        font-size: 36px;
+        font-size: 26px;
+        font-weight: unset;
+        color: #fff;
+        font-family: 'OpenSans', sans-serif;
+    }
+
+    #about_section_one p{
+        color: #fff;
+        font-size: 30px
     }
 
     #about_section_one {
-        min-height: 500px;
+        min-height: 250px;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .section_one_text{
+        top: auto;
+    }
+
+    #about_section_one{
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgb(0 0 0 / 40%)), /* top layer */ url(../images/about_banner.jpg), /* middle layer */ #000000;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
     }
 
     #contact_section_two span{

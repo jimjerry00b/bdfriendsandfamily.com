@@ -33,21 +33,21 @@
     <div class="row">
         <div class="col-12">
             <div class="form-container">
-                <form class="p-5" action="" method="post">
+                <form class="p-4 p-lg-5" action="" method="post">
                     <div class="mb-4">
-                        <label for="name" class="form-label">Your Name</label>
+                        <label for="name" class="form-label">Your Name <span class="required">*</span></label>
                         <input type="text" class="form-control" id="name" name="name" required>
                     </div>
                     <div class="mb-4">
-                        <label for="email" class="form-label">Your Email</label>
+                        <label for="email" class="form-label">Your Email <span class="required">*</span></label>
                         <input type="email" class="form-control" id="email" name="email" required>
                     </div>
                     <div class="mb-4">
-                        <label for="phone" class="form-label">Your Phone Number</label>
+                        <label for="phone" class="form-label">Your Phone Number <span class="required">*</span></label>
                         <input type="tel" class="form-control" id="phone" name="phone" required>
                     </div>
                     <div class="mb-4">
-                        <label for="message" class="form-label">Your Message</label>
+                        <label for="message" class="form-label">Your Message <span class="required">*</span></label>
                         <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
                     </div>
                     <div class="text-center">
