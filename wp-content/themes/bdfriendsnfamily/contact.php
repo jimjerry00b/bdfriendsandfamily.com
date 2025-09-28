@@ -12,7 +12,7 @@
 
 <section class="container-fluid d-flex justify-content-center align-items-center" id="contact_section_one">
     <div class="row">
-        <div class="col-8 offset-4 p-0 text-center">
+        <div class="col-11 col-md-8 offset-4 p-0 text-end text-md-center">
             <h1>Let’s Plan Your Next Event Together</h1>
         </div>
     </div>

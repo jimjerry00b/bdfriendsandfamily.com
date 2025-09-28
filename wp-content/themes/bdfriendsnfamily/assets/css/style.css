@@ -698,6 +698,29 @@ footer p {
     color: red;
 }
 
+
+    /* Scroll to Top Button */
+    #scrollTopBtn {
+      display: none; /* Hidden by default */
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      background-color: var(--primary-color);
+      color: #000;
+      border: none;
+      padding: 12px 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    #scrollTopBtn:hover {
+      background-color: var(--primary-color-dark);
+    }
+
 /* contact end */
 
 /* responsive css start */
@@ -770,8 +793,8 @@ footer p {
 
 @media screen and (max-width: 768px) {
     #banner{
-        background: linear-gradient(to right, rgb(0 0 0 / 77%), rgba(0, 0, 0, 0)), /* top layer */ url(../images/banner-2.png) repeat, /* middle layer */ #000000;; 
-        background-position: right;
+        background: linear-gradient(to right, rgb(0 0 0 / 0%), rgba(0, 0, 0, 0)), /* top layer */ url(../images/banner-2.png) repeat, /* middle layer */ #000000;
+        background-position: center, right 42% center;
         background-repeat: no-repeat;
         background-size: cover;
     }
@@ -810,9 +833,26 @@ footer p {
         font-size: 22px;
     }
 
-    .home_title {
+    .menu_items_section h3 {
         font-size: 20px;
-        line-height: 30px;
+    }
+
+    #contact_section_one h1 {
+        font-size: 22px;
+    }
+
+    #about_section_two h2, #about_section_three h2, #contact_section_two h2, #why_choose_us h2{
+        font-size: 24px;
+        font-family: 'OpenSans';
+    }
+
+    #banner h1{
+        font-size: 20px;
+    }
+
+    .home_title {
+        font-size: 17px;
+        line-height: 23px;
         padding-top: 20px;
     }
 
@@ -831,7 +871,7 @@ footer p {
 
     #banner{
         height: auto;
-        padding: 60px 0 40px 0;
+        padding: 35px 0 10px 0;
     }
 
     .order_today_btn::before {
@@ -875,7 +915,7 @@ footer p {
     }
 
     #about_section_one h1{
-        font-size: 26px;
+        font-size: 24px;
         font-weight: unset;
         color: #fff;
         font-family: 'OpenSans', sans-serif;

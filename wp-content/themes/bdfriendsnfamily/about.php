@@ -9,7 +9,7 @@
 ?>
 
 
-<section class="container-fluid d-flex justify-content-center align-items-center" id="about_section_one">
+<section class="container-fluid d-flex justify-content-center align-items-end align-items-sm-center" id="about_section_one">
     <div class="row">
         <div class="col-12 px-2 text-center section_one_text">
             <p>Serving</p>

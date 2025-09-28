@@ -9,9 +9,9 @@
 ?>
 <section id="banner" class="d-flex justify-content-center align-items-center">
     <div class="overlay"></div>
-    <div class="container">
+    <div class="container px-3">
         <div class="row">
-            <div class="col-lg-5 col-12 align-self-center">
+            <div class="col-lg-5 col-7 align-self-center">
                 <h1 class="">Authentic Bangladeshi Catering in Maryland</h1>
                 <p class="home_title" style="transition-delay: 0.2s">Perfect for weddings, birthdays, office parties, and community gatherings</p>
             </div>

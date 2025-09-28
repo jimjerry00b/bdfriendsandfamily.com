@@ -40,7 +40,7 @@
     </div>
   </section>
 
-  <section class="menu_items_section py-5">
+  <section class="menu_items_section py-0 py-md-5">
     <div class="container">
       <div class="row">
         <div class="col-12 text-center mb-4">
@@ -51,7 +51,7 @@
           <div class="menu_item_card">
             <div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/menu/1.jpg" alt="Appetizers" class="img-fluid"></div>
             <div class="menu_item_overlay">
-              <h3 class="menu_item_title">Appetizers</h3>
+              <h3 class="menu_item_title">Vegetable Pakora</h3>
               <p>Crispy, savory vegetable fritters, seasoned to perfection and fried to a golden crunchy</p>
             </div>
           </div>
