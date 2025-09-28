@@ -684,6 +684,10 @@ footer p {
     background-color: var(--bg-color);
 }
 
+#contact_form form {
+    padding: 25px;
+}
+
 #contact_form .form-container {
     max-width: 800px;
     margin: 0 auto;
@@ -805,7 +809,8 @@ footer p {
         font-family: 'OpenSans', sans-serif;
     }
     #contact_section_one div{
-        margin: 0 auto;
+        width: 78%;
+        margin-right: 2px;
     }
     #contact_section_one {
         padding: 0;

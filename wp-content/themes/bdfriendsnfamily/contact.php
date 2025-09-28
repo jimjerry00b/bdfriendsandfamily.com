@@ -39,7 +39,12 @@
     <div class="row">
         <div class="col-12">
             <div class="form-container">
-                <form class="p-4 p-lg-5" action="" method="post">
+
+                <?php
+                    echo do_shortcode('[contact-form-7 id="2291bfd" title="Contact Page Form"]');
+                ?>
+
+                <!-- <form class="p-4 p-lg-5" action="" method="post">
                     <div class="mb-4">
                         <label for="name" class="form-label">Your Name <span class="required">*</span></label>
                         <input type="text" class="form-control" id="name" name="name" required>
@@ -59,7 +64,7 @@
                     <div class="text-center">
                         <button type="submit" class="btn btn-primary">Send Message</button>
                     </div>
-                </form>
+                </form> -->
             </div>
         </div>
     </div>
