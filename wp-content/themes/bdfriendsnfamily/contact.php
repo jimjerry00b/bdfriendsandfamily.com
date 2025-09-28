@@ -41,7 +41,7 @@
             <div class="form-container">
 
                 <?php
-                    echo do_shortcode('[contact-form-7 id="2291bfd" title="Contact Page Form"]');
+                    echo do_shortcode('[contact-form-7 id="3fc6204" title="Contact Page form"]');
                 ?>
 
                 <!-- <form class="p-4 p-lg-5" action="" method="post">
