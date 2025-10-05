@@ -72,6 +72,22 @@
   <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
   <script>
     $(document).ready(function(){
+      // Banner Slider
+      $('.banner-slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+        fade: true,
+        cssEase: 'linear',
+        arrows: true,
+        pauseOnHover: false
+      });
+
+      // Testimonial Slider
       $('.testimonial-slider').slick({
         dots: false,
         infinite: true,

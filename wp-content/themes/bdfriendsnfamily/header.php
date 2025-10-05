@@ -6,7 +6,7 @@
     <title><?php bloginfo('name'); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="<?php echo get_template_directory_uri(); ?>/assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css?v=3.0" rel="stylesheet">
+    <link href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css?v=4.0" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>

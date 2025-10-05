@@ -7,20 +7,15 @@
     */
 
 ?>
-<section id="banner" class="d-flex justify-content-center align-items-center">
-    <div class="overlay"></div>
-    <div class="container px-3">
-        <div class="row">
-            <div class="col-lg-5 col-7 align-self-center">
-                <h1 class="">Authentic Bangladeshi Catering in Maryland</h1>
-                <p class="home_title" style="transition-delay: 0.2s">Perfect for weddings, birthdays, office parties, and community gatherings</p>
-            </div>
-            <div class="col-lg-7 col-12 position-relative">
-                <div class="d-flex align-items-center position-absolute order_today_box">
-                    <button class="order_today_btn"><span>Order Today<span></button>
-                </div>
-            </div>
-        </div>
+<section id="banner" class="banner-slider">
+    <div class="banner-slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider/home-page-01.jpg" alt="Slide 1">
+    </div>
+    <div class="banner-slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider/home-page-02.jpg" alt="Slide 2">
+    </div>
+    <div class="banner-slide">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider/home-page-03.jpg" alt="Slide 3">
     </div>
 </section>
 
