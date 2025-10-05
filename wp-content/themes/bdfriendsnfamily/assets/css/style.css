@@ -153,7 +153,7 @@ nav #navbarNav ul li:hover a, nav #navbarNav ul li a.active{
 .banner-slider .slick-prev:hover,
 .banner-slider .slick-next:hover {
     background: rgba(140, 6, 6, 0.9);
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 .banner-slider .slick-prev {
@@ -839,12 +839,6 @@ footer p {
 }
 
 @media screen and (max-width: 768px) {
-    #banner{
-        background: linear-gradient(to right, rgb(0 0 0 / 0%), rgba(0, 0, 0, 0)), /* top layer */ url(../images/banner-2.png) repeat, /* middle layer */ #000000;
-        background-position: center, right 42% center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
 
     #contact_section_one h1{
         font-size: 28px;
@@ -919,7 +913,7 @@ footer p {
 
     #banner{
         height: auto;
-        padding: 35px 0 10px 0;
+        padding: 0;
     }
 
     .order_today_btn::before {
