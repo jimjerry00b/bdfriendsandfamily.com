@@ -83,7 +83,7 @@
         autoplaySpeed: 5000,
         fade: true,
         cssEase: 'linear',
-        arrows: true,
+        arrows: false,
         pauseOnHover: false
       });
 
