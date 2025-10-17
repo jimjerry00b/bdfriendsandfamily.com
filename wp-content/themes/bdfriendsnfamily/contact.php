@@ -3,12 +3,20 @@
 <?php
 
 /*
-        Template Name: Contact Page
-    */
+    Template Name: Contact Page
+*/
 
 ?>
 
 
+<style>
+
+    .wpcf7-not-valid-tip{
+        font-size: 15px;
+        padding-left: 15px;
+    }
+
+</style>
 
 <section class="container-fluid d-flex justify-content-center align-items-center" id="contact_section_one">
     <div class="row">
@@ -27,7 +35,7 @@
         <div class="col-12 text-center">
             <p>We’re here to make your party stress-free with delicious Bangladeshi catering. Contact us today to discuss your event menu, quantity, and special requests.</p>
             <div class="pt-3">
-                <span class="px-2">Phone: +1 301-873-8643</span><span class="px-2">email: contact@friendsfamilyfood.com</span>
+                <span class="px-2">Phone: +1 301-873-8643</span><span class="px-2">email: contact@bdfriendsandfamily.com</span>
             </div>
             <h4 class="py-3">Minimum catering order applies. All dishes are available in half-tray & full-tray sizes.</h4>
         </div>

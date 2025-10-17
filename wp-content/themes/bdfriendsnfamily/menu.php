@@ -32,7 +32,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 text-center py-3 py-lg-5">
-          <h2 class="menu_section_two_title">To Place your order call us at +1 301 873 5643</h2>
+          <h2 class="menu_section_two_title">To Place your order call us at +1 301-873-8643</h2>
           <p class="menu_section_two_subtitle py-3">Our Service available only based in Maryland, USA Minimum catering order applies. All dishes are available in half-tray & full-tray sizes.</p>
           <p class="menu_section_two_text">We specialize in large-quantity party catering only. Every dish is prepared with authentic spices and fresh ingredients. Choose from our wide selection of Bangladeshi & South Asian favorites.</p>
         </div>
